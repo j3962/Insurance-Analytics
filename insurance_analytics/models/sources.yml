@@ -1,0 +1,18 @@
+version: 2
+
+sources:
+  - name: bronze_layer
+    database: insurance_analytics
+    schema: bronze_layer
+    tables:
+      - name: issuer_details
+
+      - name: health_insurance_plans
+
+      - name: product_details
+
+      - name: state_rating_area
+
+      - name: service_area_details
+
+      - name: insurance_rates
